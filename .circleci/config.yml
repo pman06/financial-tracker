@@ -16,6 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Say hello"
+          command: echo "Hello to the world"
 
   print-hello:
     docker:
